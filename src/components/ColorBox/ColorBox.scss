@@ -1,0 +1,14 @@
+.color-box {
+    $box_size: 100px;
+
+    display: inline-block;
+    width: $box_size;
+    height: 50px;
+    border-radius: 8px;
+
+    // Giúp cho phần đổi màu mượt mà hơn
+    transition: all 0.45s ease-in-out 0s;
+
+    //  để người dùng biết có click được
+    cursor: pointer;
+}
